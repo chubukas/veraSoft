@@ -1,0 +1,78 @@
+.Main {
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  width: 1045px;
+  height: 81px;
+  margin: 5px 10rem 0 10rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.buttons {
+  background: #d2d2d2 0% 0% no-repeat padding-box;
+  width: 165px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font: normal normal bold 12px/14px Arial;
+  color: #3a3a3a;
+  margin-left: 2px;
+}
+
+.buttons:hover,
+.activeButton:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.activeButton {
+  background: #3a3a3a 0% 0% no-repeat padding-box;
+  width: 165px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font: normal normal bold 12px/14px Arial;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.underButtons {
+  background: #7d869a 0% 0% no-repeat padding-box;
+  width: 1045px;
+  height: 41px;
+  margin: 5px 10rem 0 10rem;
+  display: grid;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.normalButton:hover,
+.roundButtons:hover {
+  cursor: pointer;
+}
+
+.underButtons span {
+  text-align: center;
+  color: #ffffff;
+  font: normal normal 600 16px/22px Open Sans;
+}
+
+.roundButtons {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 11px;
+  width: 67px;
+  height: 23px;
+  border: none;
+  font: normal normal normal 10px/11px Arial;
+  color: #3a3a3a;
+  margin: 0 25px 0 5px;
+}
+
+.normalButton {
+  border: none;
+  background: none;
+  text-align: center;
+  color: #ffffff;
+  font: normal normal normal 10px/11px Arial;
+  margin: 0 25px 0 5px;
+}

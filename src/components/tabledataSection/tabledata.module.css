@@ -1,0 +1,53 @@
+.MainTable {
+  width: 1045px;
+  margin: 0 10rem 0 10rem;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.MainTable th,
+.MainTable td {
+  border-bottom: 1px solid #ddd;
+}
+
+.tableHead {
+  font: normal normal normal 10px/11px Arial;
+  color: #444444;
+  margin-bottom: 5px;
+  height: 20px;
+}
+
+.tableHead:hover,
+.tableHead th:hover {
+  cursor: pointer;
+  background-color: #444444;
+  color: #f2f4f7;
+}
+
+.uptabledatas {
+  font: normal normal normal 16px/22px Open Sans;
+  color: #333333;
+}
+
+.downtabledatas {
+  font: normal normal normal 14px/19px Open Sans;
+  color: #333333;
+  line-height: 1px;
+}
+
+.tablebutton {
+  width: 88px;
+  height: 28px;
+  background: #7d869a 0% 0% no-repeat padding-box;
+  font: normal normal normal 12px/14px Arial;
+  color: #ffffff;
+  border: none;
+}
+
+.tablebutton:hover {
+  cursor: pointer;
+}
+
+.tabledatas:nth-child(even) {
+  background: #f2f4f7 0% 0% no-repeat padding-box;
+}

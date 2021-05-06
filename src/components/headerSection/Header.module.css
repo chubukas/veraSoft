@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 10rem 0 10rem;
+  border-bottom: 1px solid #333333;
+}
+
+.name {
+  text-align: left;
+  font: normal normal 600 25px/34px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.button {
+  background: #404040 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #eeebeb;
+  background: #0c0c0c 0% 0% no-repeat padding-box;
+}
